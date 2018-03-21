@@ -1,0 +1,19 @@
+{
+  "name": "mvce-firefox-devtools-api-gethar-bug",
+  "description": "Minimal Viable Complete Example To Reproduce Firefox Devtools API getHAR Bug",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "mvce-firefox-devtools-api-gethar-bug@bugzilla.mozilla.org",
+      "strict_min_version": "60.0"
+    }
+  },
+  "devtools_page": "devtools/devtools-page.html",
+  "permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "256": "icons/star.png"
+  }
+}
